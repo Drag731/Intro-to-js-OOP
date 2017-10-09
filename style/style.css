@@ -1,0 +1,29 @@
+body {
+	background: url(../image/bg.jpg);
+	background-size: cover;
+	box-sizing: border-box;
+}
+
+.main {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+	background: rgba(200, 200, 200, 0.9);
+	padding: 20px;
+}
+
+.main::after {
+	content: "\0020";
+	display: block;
+	clear: both;
+}
+
+.main__admin, .main__user {
+	width: 50%;
+	float: left;
+}
+
+.button {
+	display: block;
+	margin-bottom: 10px;
+}

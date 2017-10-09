@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>SlotMachine. Beta version</title>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body >
+	<div class="main">
+		<h1>You can see all information in the console. Press F12 and go to the console.</h1>
+		<div class="main__admin">
+			<h2>For the administrator:</h2>
+			<button class="button" id="getMoneyCasino">Get total amount of money in casino</button>
+			<button class="button" id="getNumberMachines">Get total number of machines in casino</button>
+			<button class="button" id="addMachine">Add new SlotMachine</button>
+			<button class="button" id="removeMachine">Remove machine by unique number</button>
+			<button class="button" id="takeMoneyCasino">Take the money from the casino</button>
+		</div>
+		<div class="main__user">
+			<h2>For the player:</h2>
+			<button class="button" id="getMoneyMachine">Get total amount of money in machine</button>
+			<button class="button" id="takeMoney">Take a money from the machine</button>
+			<button class="button" id="putMoney">Put a money to the machine</button>
+			<button class="button" id="playGame">Play game</button>
+		</div>
+	</div>
+	<script src="js/slotMachine.js" async></script>
+</body>
+</html>
